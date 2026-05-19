@@ -16,6 +16,10 @@ app.get('/app1', (req, res) => {
   res.send('Hello this Apps 1!')
 });
 
+app.get('/pandu', (req, res) => {
+  res.send('Hello Pandu!')
+});
+
 app.get('/app2', (req, res) => {
   res.send('Hello this App 2!')
 });
