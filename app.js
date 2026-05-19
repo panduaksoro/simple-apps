@@ -1,7 +1,8 @@
 const express = require('express')
 const mysql = require('mysql');
 const app = express()
-const path = require('path')
+const path = require('node:path')
+app.disable("x-powered-by");
 require('dotenv').config();
 
 // Import Middleware
